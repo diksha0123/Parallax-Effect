@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            text-shadow: 3px 3px 3px red;
+            /* horizontal,vertical,blurness,color */
+            text-shadow: 3px 3px 3px red, 5px 5px 5px blue;
+            /* multiple shadows can be added by separating them with commas */
+            width: 200px;
+            height: 100px;
+            background-color:lightpink;
+            box-shadow: 10px 10px 5px grey;
+            /* shadow color by default will be same as text color */
+            /* multiple shadow can be added to box just like text */
+            /*  the spread radius controls how much the shadow expands or contracts.
+                box-shadow: offset-x offset-y blur-radius spread-radius color;*/
+        }
+    </style>
+</head>
+<body>
+     <div class="box">
+        this is text shadow.
+     </div>
+</body>
+</html>

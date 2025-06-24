@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* div{
+        position:static;
+        default position
+         
+    } */
+     div{
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        background-color: lightblue;
+        border: 1px solid black;
+     }
+     .p1{
+        position: relative;
+        top: 20px;
+        left: 20px;
+        /* relative to its normal position */
+     }
+     .p2{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        /* relative to the nearest positioned ancestor */
+     }
+     .p3{
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        /* relative to the viewport */
+     }
+     .p4{
+        position: sticky;
+        top: 20px;
+        left: 20px;
+        /* relative to the viewport until it reaches a certain point */
+     }
+    </style>
+</head>
+<body>
+    <div class="p1">a</div>
+    <div class="p2">b</div>
+    <div class="p3">c</div>
+    <div class="p4">d</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box{
+        height: 100px;
+        width: 20   x;
+        border: 1px solid black;
+        overflow: scroll;
+        /* overflow: hidden;  this will hide the overflow content */
+    }
+    .box2{
+        min-height: 100px;
+        min-width: 200px;
+        border: 1px solid black;
+        /* min-height and min-width will not allow the content to overflow */
+        /* it will change the size of the box according to the content */
+        overflow: scroll;
+    } 
+</style>
+</head>
+<body>
+     <div class="box">when we use normal height and width the then content can overflow if the content is a lot
+        so we can use overflow property to control it. also when we use min height an min width then the content will not overflow as the box will change its size according to the content
+     </div>
+     <div class="box2">when we use normal height and width the then content can overflow if the content is a lot
+        so we can use overflow property to control it. also when we use min height an min width then the content will not overflow as the box will change its size according to the content
+     </div>
+</body>
+</html>
